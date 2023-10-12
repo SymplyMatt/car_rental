@@ -15,7 +15,7 @@ export default async function updateCar ( req : Request, res : Response) {
         car.Engine = req.body.Engine || car.Engine;
         car.Fuel = req.body.Fuel || car.Fuel;
         car.Transmission = req.body.Transmission || car.Transmission;
-        car.Consumption = req.body.Consumption || car.Transmission;
+        car.Consumption = req.body.Consumption || car.Consumption;
         car.Day = req.body.Day || car.Day;
         car.Sixday = req.body.Sixday || car.Sixday;
         car.Week = req.body.Week || car.Week;
